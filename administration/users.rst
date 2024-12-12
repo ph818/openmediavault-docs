@@ -77,9 +77,9 @@ Settings
 
 Option to select a |sf| as root for home folders for new users created in the
 |webui|. Previously existing users created before enabling this setting will not have
-their home folders moved to this new location. You can manually edit :file:`/etc/passwd`
-to point them to the new location. Also existing users data in default linux location :file:`/home`
-has to be moved manually.
+a home folder. You can manually edit :file:`/etc/passwd`
+to point them to the new location. OMV does not store any user data on the system drive,
+therefore user folders in /home are unsupported. 
 
 Group
 =====
