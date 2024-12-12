@@ -80,7 +80,7 @@ Option to select a |sf| as root for home folders for new users created in the
 a home folder. Enabling the setting will create home folders for these users, but will not
 populate them with the basic skeleton. Do do this, you may run :command:`mkhomedir_helper <username>` 
 from the commandline. OMV does not store any user data on the root drive,
-therefore user folders in :file:`/home` are unsupported. 
+therefore user folders in :file:`/home/` are unsupported. 
 
 Group
 =====
